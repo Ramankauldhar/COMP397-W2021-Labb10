@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1410010924}
   - component: {fileID: 1410010926}
   - component: {fileID: 1410010925}
+  - component: {fileID: 5039861174802892961}
   m_Layer: 3
   m_Name: TileWithEnemy
   m_TagString: Untagged
@@ -179,6 +180,20 @@ MonoBehaviour:
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 0
+--- !u!114 &5039861174802892961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4263304458397591248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d0f68d2fd0c439f90b2800b343c43d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 500746169562902787}
+  delay: 2
 --- !u!1001 &196858359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -186,6 +201,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4263304458397591251}
     m_Modifications:
+    - target: {fileID: 500746169653453044, guid: 2d13e8f084a91c54b837e6c5cf4401c9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2396191597079866062, guid: 2d13e8f084a91c54b837e6c5cf4401c9, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -247,6 +266,11 @@ PrefabInstance:
 --- !u!4 &6129071363908455454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6129071363819019753, guid: 2d13e8f084a91c54b837e6c5cf4401c9, type: 3}
+  m_PrefabInstance: {fileID: 196858359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &500746169562902787 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 500746169653453044, guid: 2d13e8f084a91c54b837e6c5cf4401c9, type: 3}
   m_PrefabInstance: {fileID: 196858359}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4263304459100465042

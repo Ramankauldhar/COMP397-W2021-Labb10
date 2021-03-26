@@ -12,7 +12,6 @@ public enum CryptoState
     KICK
 }
 
-
 public class CryptoBehaviour : MonoBehaviour
 {
     [Header("Line of Sight")] 
@@ -98,4 +97,3 @@ public class CryptoBehaviour : MonoBehaviour
     }
 
 }
-
